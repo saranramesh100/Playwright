@@ -17,3 +17,6 @@ test("git check", async({page})=>{
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
     await page.locator("//input[@value='radio3']").check()
 })
+test("conflict check", async({page})=>{
+  console.log("hi conflict")
+})
