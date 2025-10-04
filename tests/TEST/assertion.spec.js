@@ -17,3 +17,5 @@ test("git check", async({page})=>{
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
     await page.locator("//input[@value='radio3']").check()
 })
+
+cosole.log("hi")
