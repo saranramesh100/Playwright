@@ -12,3 +12,8 @@ test("radio button", async({page})=>{
     
 
 })
+// code updated by saravanan for radio module
+test("git check", async({page})=>{
+    await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
+    await page.locator("//input[@value='radio3']").check()
+})
