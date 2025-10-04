@@ -20,3 +20,4 @@ test("git check", async({page})=>{
 test("conflict check", async({page})=>{
   console.log("hi conflict")
 })
+ console.log("hi saran")
