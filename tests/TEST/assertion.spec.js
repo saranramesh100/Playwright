@@ -18,4 +18,4 @@ test("git check", async({page})=>{
     await page.locator("//input[@value='radio3']").check()
 })
 
-cosole.log("hi")
+console.log("hi")

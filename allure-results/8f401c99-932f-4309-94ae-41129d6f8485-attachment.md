@@ -1,0 +1,102 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "Airwallex" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+      - generic [ref=e15]:
+        - heading "Log in to your account" [level=1] [ref=e17]
+        - generic [ref=e19]:
+          - generic [ref=e21]:
+            - generic [ref=e22] [cursor=pointer]:
+              - heading "Email" [level=3] [ref=e23]
+              - heading "Mobile number" [level=3] [ref=e24]
+            - generic [ref=e25]:
+              - generic [ref=e26]: Mobile number
+              - generic [ref=e27]:
+                - generic [ref=e29]:
+                  - log [ref=e31]
+                  - generic [ref=e32] [cursor=pointer]:
+                    - generic [ref=e33]:
+                      - generic [ref=e34]: "+54"
+                      - combobox [ref=e36]
+                    - img [ref=e39]
+                - textbox "Mobile number" [ref=e43]: "7010514741"
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - text: Password
+              - generic [ref=e47] [cursor=pointer]: Forgot password?
+            - generic [ref=e49]:
+              - textbox "Password Forgot password?" [ref=e50]: 123@12233
+              - img [ref=e52] [cursor=pointer]
+          - generic [ref=e55]:
+            - iframe [ref=e60]:
+              - generic [ref=f1e2]:
+                - generic [ref=f1e3]:
+                  - checkbox "I'm not a robot" [ref=f1e7]
+                  - generic [ref=f1e11]: I'm not a robot
+                - generic [ref=f1e12]:
+                  - generic [ref=f1e15]: reCAPTCHA
+                  - generic [ref=f1e16]:
+                    - link "Privacy" [ref=f1e17] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/en/policies/privacy/
+                    - text: "-"
+                    - link "Terms" [ref=f1e18] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/en/policies/terms/
+            - button "Log in" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: Log in
+        - generic [ref=e64]:
+          - button "New to Airwallex? Sign up" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: New to Airwallex? Sign up
+          - generic [ref=e67]:
+            - paragraph [ref=e68]: Looking for the sandbox environment?
+            - link "Log in to sandbox" [ref=e69] [cursor=pointer]:
+              - /url: https://demo.airwallex.com/app/login/sandbox?region=row
+    - list [ref=e72]:
+      - listitem [ref=e73]:
+        - generic [ref=e74]:
+          - heading "Business Accounts" [level=5] [ref=e75]
+          - paragraph [ref=e76]: Streamline your global payments and finances with an all-in-one account.
+      - listitem [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Spend" [level=5] [ref=e79]
+          - paragraph [ref=e80]: Manage company spending with corporate cards, built-in expense management, and more.
+      - listitem [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Payments" [level=5] [ref=e83]
+          - paragraph [ref=e84]: Securely accept payments from customers around the world like a local.
+      - listitem [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Platform APIs and Embedded Finance" [level=5] [ref=e87]
+          - paragraph [ref=e88]: Access APIs to programmatically manage your money or to build your own financial products.
+  - iframe [ref=e91]:
+    - generic [ref=f2e2]:
+      - generic [ref=f2e5]:
+        - link "Privacy" [ref=f2e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f2e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f2e8]:
+        - generic [ref=f2e9]:
+          - text: protected by
+          - strong [ref=f2e10]: reCAPTCHA
+        - generic [ref=f2e11]: "-"
+  - iframe [ref=e93]:
+    - generic [ref=f3e2]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e5]: 安全验证
+        - generic:
+          - img [ref=f3e8]
+          - generic [ref=f3e13]: 返回
+      - generic:
+        - option
+      - generic [ref=f3e14]:
+        - generic [ref=f3e17]: 拖动下方滑块完成拼图
+        - generic [ref=f3e22]:
+          - img "feedback" [ref=f3e25] [cursor=pointer]
+          - img "refresh" [ref=f3e28] [cursor=pointer]
+```
